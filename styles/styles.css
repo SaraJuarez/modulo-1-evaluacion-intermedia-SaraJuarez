@@ -35,10 +35,28 @@ body {
 }
 
 
+.menu {
+
+    padding-right: 45px;
+}
+
 .menu-items {
 
-    text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    color: #4a4a4a;
+    font-size: 16px;
+    padding-top: 0;
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+.menu-objects-1 {
+
+    padding-right: 20px;
 }
 
 
@@ -62,7 +80,7 @@ body {
     border: 5px solid green;
 }
 
-.menu {
+ /* .menu { */
 
     border: 5px  solid yellow;
 }
