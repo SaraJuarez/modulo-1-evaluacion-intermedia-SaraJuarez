@@ -1,6 +1,6 @@
 body {
 
-    height: 408px;
+    height: 100vh;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
@@ -16,12 +16,17 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #3cdbc0;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+
 }
 
 .header {
 
     position: fixed;
     width: 100%;
+    background-color: white;
 }
 
 .image {
@@ -67,20 +72,3 @@ body {
 
 
 
-/* CAJAS */
-
-/* .header { */
-
-    border: 5px solid red;
-}
-
-
-.main {
-
-    border: 5px solid green;
-}
-
- /* .menu { */
-
-    border: 5px  solid yellow;
-}
