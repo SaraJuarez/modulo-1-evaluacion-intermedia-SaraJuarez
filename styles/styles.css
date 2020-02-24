@@ -1,115 +1,94 @@
 body {
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
 
-    height: 100vh;
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-    
+.diversity {
+  font-size: 30px;
 }
 
 .main {
-
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #3cdbc0;
-    font-family: 'Rubik', sans-serif;
-    color: #ffffff;
-
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #3cdbc0;
+  color: #ffffff;
+  text-transform: capitalize;
 }
 
 .header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
 
-    position: fixed;
-    width: 100%;
-    background-color: white;
+.link {
+  text-transform: uppercase;
+  color: #4a4a4a;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .image {
-
-    width: 155px;
+  width: 155px;
 }
 
 .image-box {
-
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
-
 .menu {
-
-    padding-right: 45px;
+  padding-right: 45px;
 }
 
 .menu-items {
-
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    list-style: none;
-    font-family: 'Rubik', sans-serif;
-    color: #4a4a4a;
-    font-size: 16px;
-    padding-top: 0;
-    margin: 0;
-    margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+  color: #4a4a4a;
+  font-size: 16px;
+  padding-top: 0;
+  margin: 0;
+  margin-bottom: 13px;
 }
 
 .menu-objects-1 {
-
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
-@media all and (min-width: 769px) {
+@media all and (min-width: 768px) {
+  .diversity {
+    font-size: 40px;
+  }
 
-    .diversity {
-        font-size: 40px;
-    }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
 
-    .header {
+  .image-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 0;
+  }
 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0;
-    }
-    
-    .image-box {
-
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 30px;
-        padding: 0;
-
-    }
-
-    .menu {
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0;
-    }
-
-    .menu-objects-1 {
-
-        padding-right: 20px;
-    }
-
-    .menu-objects-2 {
-
-        padding-right: 30px;
-    }
-        
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
+  .menu-objects-2 {
+    padding-right: 30px;
+  }
 }
-
-
-
-
-
-
-
-
-
